@@ -31,12 +31,9 @@ const henrydogs = () => {
 						se incluyó la capacidad de agregar nuevas razas a la base de datos, lo que permite a los
 						usuarios contribuir a la comunidad y agregar información sobre razas menos conocidas.
 					</p>
-					<a href="https://github.com/fireclint/netflix-react-tailwind" target="_blank" rel="noreferrer">
+					<Link href="https://github.com/Matusola01/PI-Dogs" target="_blank" rel="noreferrer">
 						<button className="px-8 py-2 mt-4 mr-8">Código</button>
-					</a>
-					<a href="https://fireclint.github.io/netflix-react-tailwind/" target="_blank" rel="noreferrer">
-						<button className="px-8 py-2 mt-4">Demo</button>
-					</a>
+					</Link>
 				</div>
 				<div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
 					<div className="p-2">
