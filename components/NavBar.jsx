@@ -52,9 +52,6 @@ const Navbar = () => {
 						<li className="ml-10 text-sm uppercase hover:border-b">
 							<Link href="/#projects">Proyectos</Link>
 						</li>
-						<li className="ml-10 text-sm uppercase hover:border-b">
-							<Link href="/#contact">Contacto</Link>
-						</li>
 					</ul>
 					{/* Hamburger Icon */}
 					<div style={{ color: `${linkColor}` }} onClick={handleNav} className="md:hidden">
@@ -110,11 +107,6 @@ const Navbar = () => {
 							<Link href="/#projects">
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
 									Proyectos
-								</li>
-							</Link>
-							<Link href="/#contact">
-								<li onClick={() => setNav(false)} className="py-4 text-sm">
-									Contacto
 								</li>
 							</Link>
 						</ul>
